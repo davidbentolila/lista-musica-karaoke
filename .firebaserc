@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "lista-musicas-karaoke-1e918": {
+      "hosting": {
+        "lista-musicas-karaoke": [
+          "lista-musicas-karaoke-1e918"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "lista-musicas-karaoke-1e918"
+  }
+}

@@ -1,0 +1,24 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body">          
+            <table class="table mt-5 table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Código</th>
+                    <th scope="col">Artista</th>
+                    <th scope="col">Música</th>
+                    <th scope="col">Início</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let musica of musicas">
+                    <td scope="row">{{musica.id}}</td>
+                    <td>{{musica.artista}}</td>
+                    <td>{{musica.nome}}</td>
+                    <td>{{musica.inicio}}...</td>
+                  </tr>
+                </tbody>
+              </table> 
+        </div>
+    </div>
+</div>
